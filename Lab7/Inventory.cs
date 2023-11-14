@@ -18,14 +18,6 @@ namespace Lab7
         {
             if (newItem is not null)
             {
-                foreach (Item part in inventoryList)
-                {
-                    //Проверка на уникальность предметов в инвентаре,если ID предмета совпадает с другим значит такой предмет уже есть в инвентаре.
-                    if (part.Id.Equals(newItem.Id))
-                    {
-                        throw new ArgumentOutOfRangeException("В инвентаре уже есть этот предмет");
-                    }
-                }
                 inventoryList.Add(newItem);
             }
             else

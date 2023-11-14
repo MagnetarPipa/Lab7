@@ -14,7 +14,7 @@ namespace Lab7
             Item item3 = new Item("Shotgun", "12334567", 3, 4);
             Item item2 = new Item("Shovel", "945687893112", 1,8);
             Item item4 = new Item("Rifle", "8567123", 15,100);
-             //Item item5 = new Item("Rifle", "8567123", 15,100);
+            // Item item5 = new Item("Rifle", "8567123", 15,100);
             Inventory inventory = new Inventory();
 
           
@@ -22,7 +22,6 @@ namespace Lab7
             inventory.AddItem(item2);
             inventory.AddItem(item3);
             inventory.AddItem(item4);
-          //inventory.AddItem(item5);
            
             Console.WriteLine(inventory);
 
