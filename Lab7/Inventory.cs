@@ -22,8 +22,7 @@ namespace Lab7
             }
             else
             {
-                Console.WriteLine(newItem);
-                throw new ArgumentOutOfRangeException("В инвентаре уже есть этот предмет");
+                throw new ArgumentOutOfRangeException("Ошибка в добавлении предмета");
             }
         }
 
